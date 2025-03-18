@@ -1,0 +1,4 @@
+#Tue Mar 18 14:17:47 PDT 2025
+base.0=/Users/jke/jeffrey/woring/androbd/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

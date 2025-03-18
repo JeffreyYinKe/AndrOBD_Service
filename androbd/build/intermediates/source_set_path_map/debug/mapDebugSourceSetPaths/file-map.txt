@@ -1,0 +1,13 @@
+com.fr3ts0n.ecu.gui.androbd-core-1.12.0-0 /Users/jke/.gradle/caches/transforms-3/134057396808b103ac44703c0329602c/transformed/core-1.12.0/res
+com.fr3ts0n.ecu.gui.androbd-annotation-experimental-1.3.0-1 /Users/jke/.gradle/caches/transforms-3/29d0c73e8724233faf691c56125fc19b/transformed/annotation-experimental-1.3.0/res
+com.fr3ts0n.ecu.gui.androbd-speedviewlib-1.6.1-2 /Users/jke/.gradle/caches/transforms-3/a8bd0a3b8da9bf56ffde27d006b9848a/transformed/speedviewlib-1.6.1/res
+com.fr3ts0n.ecu.gui.androbd-lifecycle-runtime-2.3.1-3 /Users/jke/.gradle/caches/transforms-3/b9a22cfec593fd95a9750d1bc8972ad2/transformed/lifecycle-runtime-2.3.1/res
+com.fr3ts0n.ecu.gui.androbd-core-ktx-1.12.0-4 /Users/jke/.gradle/caches/transforms-3/bb33f2372d1f210eb2ff0aa652942dbc/transformed/core-ktx-1.12.0/res
+com.fr3ts0n.ecu.gui.androbd-pngs-5 /Users/jke/jeffrey/woring/androbd/build/generated/res/pngs/debug
+com.fr3ts0n.ecu.gui.androbd-resValues-6 /Users/jke/jeffrey/woring/androbd/build/generated/res/resValues/debug
+com.fr3ts0n.ecu.gui.androbd-packageDebugResources-7 /Users/jke/jeffrey/woring/androbd/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.fr3ts0n.ecu.gui.androbd-packageDebugResources-8 /Users/jke/jeffrey/woring/androbd/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.fr3ts0n.ecu.gui.androbd-debug-9 /Users/jke/jeffrey/woring/androbd/build/intermediates/merged_res/debug/mergeDebugResources
+com.fr3ts0n.ecu.gui.androbd-debug-10 /Users/jke/jeffrey/woring/androbd/src/debug/res
+com.fr3ts0n.ecu.gui.androbd-main-11 /Users/jke/jeffrey/woring/androbd/src/main/res
+com.fr3ts0n.ecu.gui.androbd-debug-12 /Users/jke/jeffrey/woring/plugin/build/intermediates/packaged_res/debug/packageDebugResources

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fr3ts0n.ecu.gui.androbd-mergeDebugResources-7:/values-fi/values-fi.xml",
+            "map": [
+                {
+                    "source": "/Users/jke/jeffrey/woring/androbd/src/main/res/values-fi/strings.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,163,101",
+                        "endColumns": "45,51,61",
+                        "endOffsets": "96,210,158"
+                    },
+                    "to": {
+                        "startLines": "9,10,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "789,835,887",
+                        "endColumns": "45,51,61",
+                        "endOffsets": "830,882,944"
+                    }
+                },
+                {
+                    "source": "/Users/jke/.gradle/caches/transforms-3/134057396808b103ac44703c0329602c/transformed/core-1.12.0/res/values-fi/values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,351,456,561,673,789",
+                        "endColumns": "95,101,97,104,104,111,115,100",
+                        "endOffsets": "146,248,346,451,556,668,784,885"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,12",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,351,456,561,673,949",
+                        "endColumns": "95,101,97,104,104,111,115,100",
+                        "endOffsets": "146,248,346,451,556,668,784,1045"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fr3ts0n.ecu.gui.androbd-mergeDebugResources-7:/values-ain/values-ain.xml",
+            "map": [
+                {
+                    "source": "/Users/jke/jeffrey/woring/androbd/src/main/res/values-ain/strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,118",
+                        "endColumns": "62,98",
+                        "endOffsets": "113,212"
+                    }
+                }
+            ]
+        }
+    ]
+}

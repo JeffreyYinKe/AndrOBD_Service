@@ -1,0 +1,4 @@
+com.fr3ts0n.ecu.gui.androbd.test.androbd-androidTest-0 /Users/jke/jeffrey/woring/androbd/build/generated/res/resValues/androidTest/debug
+com.fr3ts0n.ecu.gui.androbd.test.androbd-mergeDebugAndroidTestResources-1 /Users/jke/jeffrey/woring/androbd/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.fr3ts0n.ecu.gui.androbd.test.androbd-mergeDebugAndroidTestResources-2 /Users/jke/jeffrey/woring/androbd/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.fr3ts0n.ecu.gui.androbd.test.androbd-debugAndroidTest-3 /Users/jke/jeffrey/woring/androbd/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

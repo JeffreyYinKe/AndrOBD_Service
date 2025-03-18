@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-mdpi_ic_chart.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-mdpi/ic_chart.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_ic_headup.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxhdpi/ic_headup.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_ic_chart.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxhdpi/ic_chart.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xhdpi_ic_scale.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xhdpi/ic_scale.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/menu_context_graph.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/menu/context_graph.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_device_list.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/device_list.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_dashboard.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/dashboard.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_ic_speedometer.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxhdpi/ic_speedometer.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-hdpi_ic_speedometer.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-hdpi/ic_speedometer.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-hdpi_ic_daynight.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-hdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_head_up.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/head_up.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-ldpi_ic_chart.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-ldpi/ic_chart.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/xml_device_filter.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/xml/device_filter.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_startup_layout.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/startup_layout.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_pid_customization.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/pid_customization.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_ic_filter.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxhdpi/ic_filter.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_device_name.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/device_name.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-ldpi_ic_coin.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-ldpi/ic_coin.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-mdpi_ic_speedometer.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-mdpi/ic_speedometer.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-ldpi_ic_scale.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-ldpi/ic_scale.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-anydpi-v21_ic_chart.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-anydpi-v21/ic_chart.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-ldpi_ic_daynight.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-ldpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_ic_action_load.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/drawable-xxhdpi/ic_action_load.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_ic_scale.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxhdpi/ic_scale.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-mdpi_ic_daynight.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-mdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-mdpi_ic_scale.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-mdpi/ic_scale.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_ic_coin.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxhdpi/ic_coin.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-anydpi-v21_ic_daynight.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-anydpi-v21/ic_daynight.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-anydpi-v21_ic_speedometer.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-anydpi-v21/ic_speedometer.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xhdpi_ic_chart.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xhdpi/ic_chart.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-mdpi_ic_coin.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-mdpi/ic_coin.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxxhdpi_ic_scale.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxxhdpi/ic_scale.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable_logo.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/drawable/logo.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/xml_provider_paths.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/menu_main.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/menu/main.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_action_disconnect.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/drawable-xxhdpi/action_disconnect.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_ic_daynight.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxhdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-ldpi_ic_headup.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-ldpi/ic_headup.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_usb_list.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/usb_list.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-hdpi_ic_headup.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-hdpi/ic_headup.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xhdpi_ic_speedometer.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xhdpi/ic_speedometer.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_obd_list.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/obd_list.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-ldpi_ic_speedometer.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-ldpi/ic_speedometer.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xhdpi_ic_coin.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xhdpi/ic_coin.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxhdpi_action_connect.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/drawable-xxhdpi/action_connect.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-hdpi_ic_scale.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-hdpi/ic_scale.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-hdpi_ic_chart.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-hdpi/ic_chart.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxxhdpi_ic_speedometer.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxxhdpi/ic_speedometer.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-ldpi_ic_filter.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-ldpi/ic_filter.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-hdpi_ic_filter.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-hdpi/ic_filter.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable_mil_on.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/drawable/mil_on.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xhdpi_ic_daynight.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xhdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-hdpi_ic_coin.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-hdpi/ic_coin.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/menu_obd_services.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/menu/obd_services.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xhdpi_ic_headup.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xhdpi/ic_headup.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxxhdpi_ic_chart.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxxhdpi/ic_chart.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable_activated_background.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/drawable/activated_background.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxxhdpi_ic_filter.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxxhdpi/ic_filter.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_obd_gauge.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/obd_gauge.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-mdpi_ic_headup.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-mdpi/ic_headup.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxxhdpi_ic_headup.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxxhdpi/ic_headup.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/menu_chart.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/menu/chart.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-anydpi-v21_ic_filter.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-anydpi-v21/ic_filter.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xhdpi_ic_filter.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xhdpi/ic_filter.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/layout_obd_item.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/layout/obd_item.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable_mil_off.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/drawable/mil_off.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-anydpi-v21_ic_coin.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-anydpi-v21/ic_coin.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxxhdpi_ic_daynight.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxxhdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-mdpi_ic_filter.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-mdpi/ic_filter.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/xml_settings.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-main-11:/xml/settings.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-xxxhdpi_ic_coin.png.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-xxxhdpi/ic_coin.png"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-anydpi-v21_ic_scale.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-anydpi-v21/ic_scale.xml"
+    },
+    {
+        "merged": "com.fr3ts0n.ecu.gui.androbd-debug-9:/drawable-anydpi-v21_ic_headup.xml.flat",
+        "source": "com.fr3ts0n.ecu.gui.androbd-pngs-5:/drawable-anydpi-v21/ic_headup.xml"
+    }
+]

@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baud_rates" translatable="false">
+        <item>2400</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+    <string-array name="csv_field_delim_options" translatable="false">
+        <item>@string/tab</item>
+        <item>@string/comma</item>
+        <item>@string/semicolon</item>
+    </string-array>
+    <string-array name="csv_field_delim_values" translatable="false">
+        <item>\t</item>
+        <item>,</item>
+        <item>;</item>
+    </string-array>
+    <string-array name="csv_record_delim_options" translatable="false">
+        <item>CR</item>
+        <item>LF</item>
+        <item>CRLF</item>
+    </string-array>
+    <string-array name="csv_record_delim_values" translatable="false">
+        <item>\r</item>
+        <item>\n</item>
+        <item>\r\n</item>
+    </string-array>
+    <string-array name="elmcomm_states" translatable="false">
+        <item>@string/UNDEFINED</item>
+        <item>@string/INITIALIZING</item>
+        <item>@string/INITIALIZED</item>
+        <item>@string/ECU_DETECT</item>
+        <item>@string/ECU_DETECTED</item>
+        <item>@string/CONNECTING</item>
+        <item>@string/CONNECTED</item>
+        <item>@string/NODATA</item>
+        <item>@string/STOPPED</item>
+        <item>@string/DISCONNECTED</item>
+        <item>@string/BUSERROR</item>
+        <item>@string/DATAERROR</item>
+        <item>@string/RXERROR</item>
+        <item>@string/ERROR</item>
+    </string-array>
+    <string-array name="empty" translatable="false"/>
+    <string-array name="logging_options" translatable="false">
+        <item>OFF</item>
+        <item>SEVERE</item>
+        <item>WARNING</item>
+        <item>INFO</item>
+        <item>CONFIG</item>
+        <item>FINE</item>
+        <item>FINER</item>
+        <item>FINEST</item>
+        <item>ALL</item>
+    </string-array>
+    <string-array name="measure_option_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="measure_options" translatable="false">
+        <item>@string/metric</item>
+        <item>@string/imperial</item>
+    </string-array>
+    <string-array name="restore_keys" translatable="false">
+        <item>LAST_DEV_ADDRESS</item>
+        <item>LAST_ECU_ADDRESS</item>
+        <item>LAST_SERVICE</item>
+        <item>LAST_ITEMS</item>
+        <item>LAST_VIEW_MODE</item>
+    </string-array>
+    <string-array name="restore_options" translatable="false">
+        <item>@string/last_elm</item>
+        <item>@string/last_ecu</item>
+        <item>@string/last_service</item>
+        <item>@string/last_data_items</item>
+        <item>@string/last_view_mode</item>
+    </string-array>
+    <attr format="reference" name="nestedScrollViewStyle"/>
+    <attr format="color" name="sv_centerCircleColor"/>
+    <attr format="dimension" name="sv_centerCircleRadius"/>
+    <attr format="reference" name="sv_image"/>
+    <attr format="enum" name="sv_orientation">
+        <enum name="HORIZONTAL" value="0"/>
+        <enum name="VERTICAL" value="1"/>
+    </attr>
+    <attr format="enum" name="sv_sectionStyle">
+        <enum name="ROUND" value="0"/>
+        <enum name="BUTT" value="1"/>
+    </attr>
+    <attr format="color" name="sv_speedBackgroundColor"/>
+    <attr format="color" name="sv_speedometerBackColor"/>
+    <attr format="color" name="sv_speedometerColor"/>
+    <attr format="boolean" name="sv_withEffects"/>
+    <color name="androidx_core_ripple_material_light">#1f000000</color>
+    <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+    <color name="call_notification_answer_color">#1d873b</color>
+    <color name="call_notification_decline_color">#d93025</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="row_activated">#80808080</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="accessibility_action_clickable_span" type="id"/>
+    <item name="accessibility_custom_action_0" type="id"/>
+    <item name="accessibility_custom_action_1" type="id"/>
+    <item name="accessibility_custom_action_10" type="id"/>
+    <item name="accessibility_custom_action_11" type="id"/>
+    <item name="accessibility_custom_action_12" type="id"/>
+    <item name="accessibility_custom_action_13" type="id"/>
+    <item name="accessibility_custom_action_14" type="id"/>
+    <item name="accessibility_custom_action_15" type="id"/>
+    <item name="accessibility_custom_action_16" type="id"/>
+    <item name="accessibility_custom_action_17" type="id"/>
+    <item name="accessibility_custom_action_18" type="id"/>
+    <item name="accessibility_custom_action_19" type="id"/>
+    <item name="accessibility_custom_action_2" type="id"/>
+    <item name="accessibility_custom_action_20" type="id"/>
+    <item name="accessibility_custom_action_21" type="id"/>
+    <item name="accessibility_custom_action_22" type="id"/>
+    <item name="accessibility_custom_action_23" type="id"/>
+    <item name="accessibility_custom_action_24" type="id"/>
+    <item name="accessibility_custom_action_25" type="id"/>
+    <item name="accessibility_custom_action_26" type="id"/>
+    <item name="accessibility_custom_action_27" type="id"/>
+    <item name="accessibility_custom_action_28" type="id"/>
+    <item name="accessibility_custom_action_29" type="id"/>
+    <item name="accessibility_custom_action_3" type="id"/>
+    <item name="accessibility_custom_action_30" type="id"/>
+    <item name="accessibility_custom_action_31" type="id"/>
+    <item name="accessibility_custom_action_4" type="id"/>
+    <item name="accessibility_custom_action_5" type="id"/>
+    <item name="accessibility_custom_action_6" type="id"/>
+    <item name="accessibility_custom_action_7" type="id"/>
+    <item name="accessibility_custom_action_8" type="id"/>
+    <item name="accessibility_custom_action_9" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_accessibility_actions" type="id"/>
+    <item name="tag_accessibility_clickable_spans" type="id"/>
+    <item name="tag_accessibility_heading" type="id"/>
+    <item name="tag_accessibility_pane_title" type="id"/>
+    <item name="tag_on_apply_window_listener" type="id"/>
+    <item name="tag_on_receive_content_listener" type="id"/>
+    <item name="tag_on_receive_content_mime_types" type="id"/>
+    <item name="tag_screen_reader_focusable" type="id"/>
+    <item name="tag_state_description" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="tag_window_insets_animation_callback" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <id name="view_tree_lifecycle_owner"/>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="BUSERROR">BUS error</string>
+    <string name="CONNECTED">Connected</string>
+    <string name="CONNECTING">Connecting…</string>
+    <string name="DATAERROR">DATA error</string>
+    <string name="DISCONNECTED">Disconnected</string>
+    <string name="ECU_DETECT">ECU detect…</string>
+    <string name="ECU_DETECTED">ECU detected</string>
+    <string name="ERROR">Error</string>
+    <string name="INITIALIZED">Initialized</string>
+    <string name="INITIALIZING">Initializing…</string>
+    <string name="NODATA">No data</string>
+    <string name="RXERROR">RX error</string>
+    <string name="STOPPED">Stopped</string>
+    <string name="UNDEFINED">Undefined</string>
+    <string name="action_connect">Connect</string>
+    <string name="app_description">Android OBD vehicle diagnostics app for ELM327 Bluetooth adapter</string>
+    <string name="app_license_sum" translatable="false">
+        Connect to your car\'s OBD system\n
+        * GNU General Public License v3.0
+    </string>
+    <string name="app_name" translatable="false">AndrOBD</string>
+    <string name="app_version" translatable="false">V2.6.14</string>
+    <string name="autohide_delay">Hide toolbar delay [s]</string>
+    <string name="autohide_delay_description">Delay in seconds w/o activity, before Toolbar is hidden</string>
+    <string name="autohide_toolbar">Hide toolbar</string>
+    <string name="autohide_toolbar_description">Automatically hide toolbar after delay w/o activity</string>
+    <string name="back_again_to_exit">Press back again to close this app</string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="chart">Chart</string>
+    <string name="check_cust_settings">Please check your customisation settings\n</string>
+    <string name="comm_baudrate">ELM baud rate</string>
+    <string name="comm_baudrate_description">USB serial communication speed</string>
+    <string name="comma">COMMA</string>
+    <string name="common_settings">Common settings</string>
+    <string name="common_settings_description">Common settings for app control</string>
+    <string name="configure">Configure</string>
+    <string name="connected_to">"Connected to "</string>
+    <string name="connectionlost">Device connection was lost</string>
+    <string name="conversions">Data Conversions</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="copyright_fr3ts0n" translatable="false">© 2015-2024 fr3ts0n</string>
+    <string name="csv_export_description">Options for formatting CSV export files</string>
+    <string name="csv_export_options">CSV export options</string>
+    <string name="csv_field_delimiter">CSV field delimiter</string>
+    <string name="csv_field_delimiter_description">Delimiter character(s) between CSV data fields</string>
+    <string name="csv_rec_delimiter">CSV record delimiter</string>
+    <string name="csv_rec_delimiter_description">Delimiter character(s) between CSV data records</string>
+    <string name="csv_text_quoted">CSV text quoted</string>
+    <string name="csv_text_quoted_description">CSV text fields are included within quotes</string>
+    <string name="customize_display">Customize data display</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="data_disable_max">Data item disable limit</string>
+    <string name="data_disable_max_description">Number of invalid consecutive data responses before item will be disabled</string>
+    <string name="data_items">Data items</string>
+    <string name="day_night_mode">Day/Night view mode</string>
+    <string name="debugging">Debugging</string>
+    <string name="demo">Demo…</string>
+    <string name="demo_started">DEMO mode started</string>
+    <string name="demo_stopped">DEMO mode stopped</string>
+    <string name="design_credits" translatable="false">2018 by @anaufalm</string>
+    <string name="dev_opt_description">Options for debugging and customisation</string>
+    <string name="development_options">Development options</string>
+    <string name="device_address">ELM IP address</string>
+    <string name="device_address_description">ELM device network IP address</string>
+    <string name="device_port">ELM IP port</string>
+    <string name="device_port_description">ELM device network IP port</string>
+    <string name="devices_found">%d USB device(s) found</string>
+    <string name="disable_elm_cmds">Disabled ELM commands</string>
+    <string name="disable_elm_cmds_descr">enable/disable ELM commands</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="display_color">Display color</string>
+    <string name="display_range">Display range</string>
+    <string name="donation">Support project …</string>
+    <string name="elm_adaptive_timing">ELM adaptive timing</string>
+    <string name="elm_adaptive_timing_descr">Allow adaptive timing handling in ELM drivers?</string>
+    <string name="elm_custom_init">ELM custom init</string>
+    <string name="elm_custom_init_descr">ELM custom initialisation commands</string>
+    <string name="elm_options">ELM options</string>
+    <string name="elm_reset_on_nrc">Reset on NRC</string>
+    <string name="elm_reset_on_nrc_descr">Reset ELM adapter on NRC error?</string>
+    <string name="elm_timeout_descr">Minimum timeout in [ms] to wait for ELM responses</string>
+    <string name="extension_files">Protocol customisation files (CSV)</string>
+    <string name="extension_loading">Customisation loading</string>
+    <string name="filter">Filter selected</string>
+    <string name="full_screen_display">Full screen display</string>
+    <string name="full_screen_display_description">Use full screen for app display</string>
+    <string name="graphic_design">Graphic design</string>
+    <string name="hud">Head Up Display</string>
+    <string name="identify_plugins">Identify plugins</string>
+    <string name="imperial">imperial</string>
+    <string name="items_for_display">Data items to display</string>
+    <string name="items_for_display_descr">Select all data items to be displayed …</string>
+    <string name="keep_screen_on">Keep main screen on</string>
+    <string name="keep_screen_on_description">Do not turn OFF screen if main/data screen is on display</string>
+    <string name="last_data_items">last selected data items</string>
+    <string name="last_ecu">re-connect last ECU</string>
+    <string name="last_elm">re-connect last ELM-adapter</string>
+    <string name="last_service">last OBD service</string>
+    <string name="last_view_mode">last data view mode</string>
+    <string name="lib_achart" translatable="false">AChartEngine</string>
+    <string name="lib_achart_sum" translatable="false">
+        Charting library for Android\n
+        * Apache 2.0 license
+    </string>
+    <string name="lib_speedview" translatable="false">SpeedView</string>
+    <string name="lib_speedview_sum" translatable="false">
+        Beautiful gauges for Android\n
+        * Apache 2.0 license
+    </string>
+    <string name="lib_usb_serial" translatable="false">usb-serial-for-android</string>
+    <string name="lib_usb_serial_sum" translatable="false">
+        Library for USB serial connections\n
+        * GNU Lesser General Public License v2.1
+    </string>
+    <string name="libraries">Libraries …</string>
+    <string name="libraries_sum">Libraries used in project …</string>
+    <string name="license">Licensing …</string>
+    <string name="load">Load measurement</string>
+    <string name="loaded">loaded</string>
+    <string name="loading_data">Loading data …</string>
+    <string name="logging_level">Logging level</string>
+    <string name="logging_level_description">Level of details to be logged into debug log file</string>
+    <string name="logo">Logo</string>
+    <string name="long_press_dfc_hint">Long press DFC for online search …</string>
+    <string name="measure_system">Measurement units</string>
+    <string name="measure_system_description">Measurement units system (metric / imperial)</string>
+    <string name="metric">metric</string>
+    <string name="min_elm_timeout">Min. ELM timeout [ms]</string>
+    <string name="night_mode">Night mode</string>
+    <string name="night_mode_description">Set display to dark background</string>
+    <string name="none_found">No Devices Found</string>
+    <string name="none_paired">No Devices Paired</string>
+    <string name="obd_clear_info">
+This will reset the MIL and clear all emission-related diagnostic\n
+information, including:\n
+ - Diagnostic trouble codes\n
+ - Freeze frame data\n
+ - Oxygen sensor test data\n
+ - Status of system monitoring tests\n
+ - On-board monitoring tests results\n
+ - Distance travelled while MIL activated\n
+ - Number of warm-ups since DTCs cleared\n
+ - Distance travelled since DTCs cleared\n
+ - Engine run time while MIL activated\n
+ - Time since DTCs cleared\n\n
+Other manufacturer specific clearing/resetting actions may occur.\n
+The loss of data may cause the vehicle to run poorly for a short \n
+period of time while the ECU recalibrates itself.
+    </string>
+    <string name="obd_clearcodes">Clear fault codes</string>
+    <string name="obd_codes">OBD fault codes</string>
+    <string name="obd_data">OBD Data</string>
+    <string name="obd_error">OBD protocol error</string>
+    <string name="obd_none">NO service</string>
+    <string name="obd_opt_description">Options for OBD protocol / vehicle communication </string>
+    <string name="obd_options">OBD options </string>
+    <string name="obd_pendingcodes">OBD fault codes (pending)</string>
+    <string name="obd_permanentcodes">OBD fault codes (permanent)</string>
+    <string name="obd_services">OBD Services</string>
+    <string name="obd_test_confirm">OBD test control requested.\n\n
+        The requested OBD test control may generate:\n
+        - Vehicle motion\n
+        - Exhaust smoke\n
+        - High exhaust temperature\n
+        - Loud engine noise\n
+        - Fuel vapor\n
+        - etc.\n\n
+        Please confirm to perform this test control on your own risk in a safe test environment only!
+    </string>
+    <string name="obd_test_progress">OBD test control in progress.\n
+        Please check vehicle reaction.</string>
+    <string name="obd_veh_info">OBD Vehicle Info</string>
+    <string name="perform_action">Perform action</string>
+    <string name="plugin_manager">Plugin manager</string>
+    <string name="release_history">Release history …</string>
+    <string name="reset_default">Default</string>
+    <string name="reset_preselections">Reset last pre-selections</string>
+    <string name="save">Save measurement</string>
+    <string name="saved">saved</string>
+    <string name="saved_data">Saved Data</string>
+    <string name="saving_data">Saving data …</string>
+    <string name="secure_connect">Secure connection</string>
+    <string name="secure_connect_description">Use encrypted Bluetooth connection</string>
+    <string name="select_device">Select adapter</string>
+    <string name="select_ecu_addr">Select ECU address …</string>
+    <string name="select_extension">Select .csv extension file …</string>
+    <string name="select_fault_code">Select fault code …</string>
+    <string name="select_medium">Adapter type …</string>
+    <string name="select_protocol">Preferred OBD protocol </string>
+    <string name="semicolon">SEMICOLON</string>
+    <string name="send_after_export">Send after export</string>
+    <string name="send_after_export_descr">Prompt for sending CSV file right after export?</string>
+    <string name="send_to">Send to</string>
+    <string name="service_freezeframes">OBD Freeze Frames</string>
+    <string name="service_testcontrol">OBD test control</string>
+    <string name="settings">Settings</string>
+    <string name="share">share</string>
+    <string name="snapshot">snapshot</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab">TAB</string>
+    <string name="time">Time [s]</string>
+    <string name="title_connected_to">Connected %s</string>
+    <string name="title_connecting">Connecting…</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="toolbar_overlay">Show as overlay</string>
+    <string name="toolbar_overlay_sum">Show toolbar overlapping main screen</string>
+    <string name="translation_credits">Translation by fr3ts0n</string>
+    <string name="unabletoconnect">Unable to connect device</string>
+    <string name="update_period_s">Update period [s]</string>
+    <string name="url_app_license" translatable="false">https://github.com/fr3ts0n/AndrOBD/blob/master/LICENSE</string>
+    <string name="url_app_mainpage" translatable="false">https://github.com/fr3ts0n/AndrOBD/</string>
+    <string name="url_app_releases" translatable="false">https://github.com/fr3ts0n/AndrOBD/releases/</string>
+    <string name="url_app_translation" translatable="false">https://hosted.weblate.org/projects/androbd/strings/</string>
+    <string name="use_last_settings">Use last settings</string>
+    <string name="use_last_settings_description">Use last settings at startup (BT address, ECU address, Display items …)</string>
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background</item>
+    </style>
+    <style name="AppTheme.Dark" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <declare-styleable name="AwesomeSpeedometer" parent="Speedometer">
+        <attr name="sv_speedometerColor"/>
+        <attr format="color" name="sv_trianglesColor"/>
+    </declare-styleable>
+    <declare-styleable name="Capability">
+        
+        <attr format="reference" name="queryPatterns"/>
+        
+        <attr format="boolean" name="shortcutMatchRequired"/>
+    </declare-styleable>
+    <declare-styleable name="ColorStateListItem">
+        
+        <attr name="android:color"/>
+        
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+        
+        <attr format="float" name="lStar"/>
+        <attr name="android:lStar"/>
+    </declare-styleable>
+    <declare-styleable name="DeluxeSpeedView" parent="Speedometer">
+        <attr name="sv_centerCircleColor"/>
+        <attr name="sv_centerCircleRadius"/>
+        <attr name="sv_speedBackgroundColor"/>
+        <attr name="sv_sectionStyle"/>
+        <attr name="sv_withEffects"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        
+        <attr format="string" name="fontProviderAuthority"/>
+        
+        <attr format="string" name="fontProviderPackage"/>
+        
+        <attr format="string" name="fontProviderQuery"/>
+        
+        <attr format="reference" name="fontProviderCerts"/>
+        
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+        
+        <attr format="string" name="fontProviderSystemFontFamily"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        
+        <attr format="reference" name="font"/>
+        
+        <attr format="integer" name="fontWeight"/>
+        
+        <attr format="string" name="fontVariationSettings"/>
+        
+        <attr format="integer" name="ttcIndex"/>
+        
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="Gauge">
+        <attr format="dimension" name="sv_speedometerWidth"/>
+        <attr format="color" name="sv_textColor"/>
+        <attr format="color" name="sv_speedTextColor"/>
+        <attr format="color" name="sv_unitTextColor"/>
+        <attr format="boolean" name="sv_withTremble"/>
+        <attr format="dimension" name="sv_speedTextSize"/>
+        <attr format="dimension" name="sv_textSize"/>
+        <attr format="string" name="sv_unit"/>
+
+        <attr format="dimension" name="sv_unitTextSize"/>
+        <attr format="float" name="sv_trembleDegree"/>
+        <attr format="integer" name="sv_trembleDuration"/>
+        <attr format="boolean" name="sv_textRightToLeft"/>
+
+        <attr format="float" name="sv_minSpeed"/>
+        <attr format="float" name="sv_maxSpeed"/>
+
+        <attr format="float" name="sv_accelerate"/>
+        <attr format="float" name="sv_decelerate"/>
+
+        <attr format="string" name="sv_speedTextTypeface"/>
+        <attr format="string" name="sv_textTypeface"/>
+
+        <attr format="enum" name="sv_speedTextPosition">
+            <enum name="TOP_LEFT" value="0"/>
+            <enum name="TOP_CENTER" value="1"/>
+            <enum name="TOP_RIGHT" value="2"/>
+            <enum name="LEFT" value="3"/>
+            <enum name="CENTER" value="4"/>
+            <enum name="RIGHT" value="5"/>
+            <enum name="BOTTOM_LEFT" value="6"/>
+            <enum name="BOTTOM_CENTER" value="7"/>
+            <enum name="BOTTOM_RIGHT" value="8"/>
+        </attr>
+        <attr format="boolean" name="sv_unitUnderSpeedText"/>
+        <attr format="dimension" name="sv_unitSpeedInterval"/>
+        <attr format="dimension" name="sv_speedTextPadding"/>
+        <attr format="enum" name="sv_speedTextFormat">
+            <enum name="INTEGER" value="0"/>
+            <enum name="FLOAT" value="1"/>
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        
+        <attr name="android:startColor"/>
+        
+        <attr name="android:centerColor"/>
+        
+        <attr name="android:endColor"/>
+        
+        <attr name="android:type"/>
+
+        
+        
+        <attr name="android:gradientRadius"/>
+
+        
+        
+        <attr name="android:centerX"/>
+        
+        <attr name="android:centerY"/>
+
+        
+        
+        <attr name="android:startX"/>
+        
+        <attr name="android:startY"/>
+        
+        <attr name="android:endX"/>
+        
+        <attr name="android:endY"/>
+
+        
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        
+        <attr name="android:offset"/>
+        
+        <attr name="android:color"/>
+    </declare-styleable>
+    <declare-styleable name="ImageLinearGauge" parent="LinearGauge">
+        <attr name="sv_speedometerBackColor"/>
+        <attr name="sv_image"/>
+    </declare-styleable>
+    <declare-styleable name="ImageSpeedometer" parent="Speedometer">
+        <attr name="sv_image"/>
+    </declare-styleable>
+    <declare-styleable name="LinearGauge" parent="Gauge">
+        <attr name="sv_orientation"/>
+        <attr name="sv_speedometerColor"/>
+        <attr name="sv_speedometerBackColor"/>
+    </declare-styleable>
+    <declare-styleable name="PointerSpeedometer" parent="Speedometer">
+        <attr name="sv_centerCircleColor"/>
+        <attr name="sv_centerCircleRadius"/>
+        <attr name="sv_speedometerColor"/>
+        <attr format="color" name="sv_pointerColor"/>
+        <attr format="boolean" name="sv_withPointer"/>
+    </declare-styleable>
+    <declare-styleable name="RaySpeedometer" parent="Speedometer">
+        <attr name="sv_speedBackgroundColor"/>
+        <attr name="sv_withEffects"/>
+        <attr format="color" name="sv_rayColor"/>
+        <attr format="integer" name="sv_degreeBetweenMark"/>
+        <attr format="dimension" name="sv_rayMarkWidth"/>
+    </declare-styleable>
+    <declare-styleable name="SpeedView" parent="Speedometer">
+        <attr name="sv_centerCircleColor"/>
+        <attr name="sv_centerCircleRadius"/>
+        <attr name="sv_sectionStyle"/>
+    </declare-styleable>
+    <declare-styleable name="Speedometer" parent="Gauge">
+        <attr format="color" name="sv_indicatorColor"/>
+        <attr format="boolean" name="sv_withIndicatorLight"/>
+        <attr format="color" name="sv_indicatorLightColor"/>
+        <attr format="color" name="sv_backgroundCircleColor"/>
+
+        <attr format="integer" name="sv_startDegree"/>
+        <attr format="integer" name="sv_endDegree"/>
+
+        <attr format="dimension" name="sv_indicatorWidth"/>
+
+        <attr format="integer" name="sv_marksNumber"/>
+        <attr format="dimension" name="sv_marksPadding"/>
+        <attr format="dimension" name="sv_markHeight"/>
+        <attr format="dimension" name="sv_markWidth"/>
+        <attr format="color" name="sv_markColor"/>
+        <attr format="enum" name="sv_markStyle">
+            <enum name="ROUND" value="0"/>
+            <enum name="BUTT" value="1"/>
+        </attr>
+
+        <attr format="enum" name="sv_indicator">
+            <enum name="NoIndicator" value="0"/>
+            <enum name="NormalIndicator" value="1"/>
+            <enum name="NormalSmallIndicator" value="2"/>
+            <enum name="TriangleIndicator" value="3"/>
+            <enum name="SpindleIndicator" value="4"/>
+            <enum name="LineIndicator" value="5"/>
+            <enum name="HalfLineIndicator" value="6"/>
+            <enum name="QuarterLineIndicator" value="7"/>
+            <enum name="KiteIndicator" value="8"/>
+            <enum name="NeedleIndicator" value="9"/>
+        </attr>
+
+        <attr format="enum" name="sv_speedometerMode">
+            <enum name="NORMAL" value="0"/>
+            <enum name="LEFT" value="1"/>
+            <enum name="TOP" value="2"/>
+            <enum name="RIGHT" value="3"/>
+            <enum name="BOTTOM" value="4"/>
+            <enum name="TOP_LEFT" value="5"/>
+            <enum name="TOP_RIGHT" value="6"/>
+            <enum name="BOTTOM_RIGHT" value="7"/>
+            <enum name="BOTTOM_LEFT" value="8"/>
+        </attr>
+
+        <attr format="dimension" name="sv_cutPadding"/>
+
+        <attr format="integer" name="sv_tickNumber"/>
+        <attr format="boolean" name="sv_tickRotation"/>
+        <attr format="dimension" name="sv_tickPadding"/>
+        <attr format="enum" name="sv_tickTextFormat">
+            <enum name="INTEGER" value="0"/>
+            <enum name="FLOAT" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TubeSpeedometer" parent="Speedometer">
+        <attr name="sv_speedometerBackColor"/>
+    </declare-styleable>
+</resources>
