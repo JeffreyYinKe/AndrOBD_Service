@@ -18,6 +18,11 @@ android {
             // Override lint error on targetSdkVersion
             abortOnError false
         }
+        externalNativeBuild {
+            cmake {
+                cppFlags ''
+            }
+        }
     }
 
     applicationVariants.configureEach { variant ->
@@ -37,6 +42,12 @@ android {
         abortOnError false
     }
     namespace 'com.fr3ts0n.ecu.gui.androbd'
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.22.1'
+        }
+    }
 }
 
 dependencies {

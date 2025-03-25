@@ -26,8 +26,10 @@ import android.app.AlertDialog;
 import android.app.SearchManager;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
+import android.content.BroadcastReceiver;
 import android.content.ClipData;
 import android.content.ClipboardManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -43,6 +45,7 @@ import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.util.SparseBooleanArray;
 import android.view.ActionMode;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -232,7 +235,22 @@ public class MainActivity extends PluginManager
      * This flag ist used to temporarily allow negative OBD responses without issuing an error message.
      * i.e. un-supported mode 0x0A for DFC reading
      */
+    /**
+     * Flag to temporarily ignore NRCs
+     * This flag ist used to temporarily allow negative OBD responses without issuing an error message.
+     * i.e. un-supported mode 0x0A for DFC reading
+     */
     private static boolean ignoreNrcs = false;
+    static {
+        System.loadLibrary("virtual_gamepad");
+    }
+
+    private native int createVirtualGamepad();
+    private native void destroyVirtualGamepad(int fd);
+    public native void sendButtonPress(int fd, int button);
+    public native void sendJoystickMove(int fd, int axis, int value);
+    public native void simulateJoystick(int fd, int actionCode);
+    private int gamepadFd = -1;
 
     /**
      * handler for freeze frame selection
@@ -624,6 +642,7 @@ public class MainActivity extends PluginManager
                 setMode(MODE.ONLINE);
                 break;
         }
+        gamepadFd = createVirtualGamepad();
     }
 
     /**
@@ -723,6 +742,12 @@ public class MainActivity extends PluginManager
         Logger.getLogger("").removeHandler(logFileHandler);
 
         super.onDestroy();
+
+        // Destroy the virtual gamepad
+        if (gamepadFd != -1) {
+            destroyVirtualGamepad(gamepadFd);
+            gamepadFd = -1;
+        }
     }
 
     @Override
@@ -2496,4 +2521,23 @@ public class MainActivity extends PluginManager
             return true;
         }
     }));
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        switch (keyCode) {
+            case KeyEvent.KEYCODE_A:
+                sendButtonPress(gamepadFd, 0x130); // A button
+                break;
+            case KeyEvent.KEYCODE_X:
+                sendButtonPress(gamepadFd, 0x133); // X button
+                break;
+            case KeyEvent.KEYCODE_L:
+                simulateJoystick(gamepadFd,1); // turn left
+                break;
+            case KeyEvent.KEYCODE_R:
+                simulateJoystick(gamepadFd,1); // turn left
+                break;
+        }
+        return false;
+    }
+
 }
